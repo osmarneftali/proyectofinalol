@@ -1,3 +1,4 @@
+<?php include("basepyfinal.php"); ?>
 <!doctype html>
 <html lang="es">
   <head>
@@ -12,37 +13,48 @@
   <body>
     <br><br>
   <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn-success" href="index.html" role="button">Pagina de Inicio</a>
+    <a class="btn btn-success" href="index.html" role="button">Pagina Inicial</a>
     <a class="btn btn-danger" href="tiendas.php" role="button">Tiendas</a>
     <a class="btn btn-light" href="contactenos.php" role="button">Contactenos</a>
-    <a class="btn btn-dark" href="vermensajes.php" role="button">Ver Mensajes</a>
     </div>
     <br>
     <div class="container">
     <br>
     <div class="row">
-    <div class="col-4" style="color: #000000;"><h2>Contactenos</h2>
+    <div class="col-4" style="color: #000000;"><h2>Mensajes Recibidos</h2>
     </div>
     </div>
     </div>
-    </div>
-    <br>
-    <form action="mensajes.php" method="POST">
-    <div class="container">
-    <h5>Nombres*</h5>
-    <input type="text" name="nombre" placeholder="Ingrese su Nombre y Apelidos" size="140">
-    <br><br>
-    <h5>Telefóno/Ceular*</h5>
-    <input type="text" name="telefono" placeholder="Ingrese su número de telefónico, debe contar con nada mas 8 dígitos" size="140">
-    <br><br>
-    <h5>Correo Electronico*</h5>
-    <input type="email" name="email" placeholder="Ingrese su correo electronico" size="140">
-    <br><br>
-    <h5>Mensaje*</h5>
-    <input type="text" name="mensaje" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" size="140">
     </div>
     <br><br>
     <center>
-    <input type="submit" class="btn btn-dark" name="enviar">
+    <div class="col-8">
+    <table class="table table-dark table-hover">
+    <thead>
+    <tr>
+    <th scope="col">Nombre</th>
+    <th scope="col">Telefono/Celular</th>
+    <th scope="col">Correo Electronico</th>
+    <th scope="col">Mensaje</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php
+    $query="SELECT * FROM mensajes";
+    $resultat=mysqli_query($conn,$query);
+    while ($row=mysqli_fetch_array($resultat)){ ?>
+    <tr>
+    <td><?php echo $row ['nombre'] ?> </td>
+    <td><?php echo $row ['telefono'] ?> </td>
+    <td><?php echo $row ['correo'] ?> </td>
+    <td><?php echo $row ['mensaje'] ?> </td>
+    <td>
+    </td>
+    </tr>
+    <?php } ?>
+    </tbody>
+    </table>
+    </div>
+    </div>
     </center>
-    </form>
+  </form>
