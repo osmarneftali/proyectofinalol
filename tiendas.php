@@ -19,7 +19,7 @@
     <br><div class="container">
     <br>
     <div class="row">
-    <div class="col-4" style="color: #000000;"><h3>Nuestras Tiendas</h3>
+    <div class="col-4" style="color: #000000;"><h3> Visita Nuestras Tiendas </h3>
     </div>
     </div>
     </div>
