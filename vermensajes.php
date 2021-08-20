@@ -29,7 +29,7 @@
     <br><br>
     <center>
     <div class="col-8">
-    <table class="table table-dark table-hover">
+    <table class="table table-hover">
     <thead>
     <tr>
     <th scope="col">Nombre</th>

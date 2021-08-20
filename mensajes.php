@@ -10,7 +10,7 @@ if (isset($_POST['enviar'])) {
     $query="INSERT INTO mensajes (nombre, telefono, correo, mensaje) VALUES ('$nombre', '$telefono', '$correo', '$mensaje')";
     $resultado=mysqli_query($conn, $query);
     if ($resultado) {
-    header ('location:contactenos.php');
+    header ('location: mensajes.php');
     }
 }
 ?>

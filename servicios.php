@@ -81,7 +81,7 @@
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <div class="card" style="width: 16rem;">
-          <img src="imag/turismo.jpg" height="210px" class="card-img-top" alt="...">
+          <img src="imag/turismo.jpg" height="210px" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Capacitación de Turismo (Internacional)</h5>
             <p class="card-text">Precio: Q 1,000.00</p>

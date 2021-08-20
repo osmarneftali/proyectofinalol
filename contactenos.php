@@ -15,7 +15,7 @@
     <a class="btn btn-success" href="index.html" role="button">Pagina de Inicio</a>
     <a class="btn btn-danger" href="tiendas.php" role="button">Tiendas</a>
     <a class="btn btn-light" href="contactenos.php" role="button">Contactenos</a>
-    <a class="btn btn-dark" href="vermensajes.php" role="button">Ver Mensajes</a>
+    <a class="btn btn-dark" href="iniciars.php" role="button">Ver Mensajes</a>
     </div>
     <br>
     <div class="container">
@@ -36,13 +36,13 @@
     <input type="text" name="telefono" placeholder="Ingrese su número de telefónico, debe contar con nada mas 8 dígitos" size="140">
     <br><br>
     <h5>Correo Electronico*</h5>
-    <input type="email" name="email" placeholder="Ingrese su correo electronico" size="140">
+    <input id="emailAddress" type="email" multiple name="correo" placeholder="Ingrese su correo electronico" size="140">
     <br><br>
     <h5>Mensaje*</h5>
     <input type="text" name="mensaje" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" size="140">
     </div>
     <br><br>
     <center>
-    <input type="submit" class="btn btn-dark" name="enviar">
+    <input type="submit" class="btn btn-danger" name="enviar">
     </center>
     </form>
