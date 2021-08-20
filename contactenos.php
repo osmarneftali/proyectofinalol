@@ -46,3 +46,6 @@
     <input type="submit" class="btn btn-danger" name="enviar">
     </center>
     </form>
+    <hr>
+<p style="text-align: left;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+
