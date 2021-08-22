@@ -14,7 +14,7 @@
     <div class="input-group">
 </div>
   <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn-success" href="index.html" role="button">Pagina Inicial</a>
+    <a class="btn btn-success" href="servicios.php" role="button">Servicios</a>
     <a class="btn btn-danger" href="tiendas.php" role="button">Tiendas</a>
     <a class="btn btn-light" href="contactenos.php" role="button">contactenos</a>
   </div>
@@ -23,20 +23,20 @@
     <br>
     <h3>¡Llena los Campos para recibir la informacion de nuestros servicios :)!</h3>
     <hr>
-    <form class="row g-3 needs-validation" novalidate>
+    <form acction="datosinfo.php" method="POST" class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">Primer Nombre</label>
-    <input type="text" class="form-control" id="validationCustom01" required>
+    <label for="validationCustom01" class="form-label">NIT</label>
+    <input type="text" class="form-control" id="validationCustom01" name="nit" required>
   </div>
   <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Segundo Nombre</label>
-    <input type="text" class="form-control" id="validationCustom02" required>
+    <label for="validationCustom02" class="form-label">Nombre Completo</label>
+    <input type="text" class="form-control" id="validationCustom02" name="nombres" required>
   </div>
   <div class="col-md-4">
     <label for="validationCustomUsername" class="form-label">Correo</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" name="correo" required>
       <div class="invalid-feedback">
         Porfavor Ingrese su Correo Electronico
       </div>
@@ -44,56 +44,43 @@
   </div>
   <div class="col-md-6">
     <label for="validationCustom03" class="form-label">Ciudad</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
+    <input type="text" class="form-control" id="validationCustom03" name="ciudad" required>
     <div class="invalid-feedback">
       Porfavor Ingrese su Ciudad
     </div>
   </div>
   <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">Sexo</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Selecionar...</option>
-      <option>Masculino</option>
-      <option>Femenino</option>
-      <option>Prefiero no Decirlo</option>
-    </select>
+    <label for="validationCustom03" class="form-label">Sexo</label>
+    <input type="text" class="form-control" id="validationCustom03" name="sexo" required>
+    <div class="invalid-feedback">
+      Porfavor Ingrese su Ciudad
+    </div>
   </div>
   <div class="col-md-3">
     <label for="validationCustom05" class="form-label">Ingrese su Edad</label>
-    <input type="text" class="form-control" id="validationCustom05" required>
+    <input type="text" class="form-control" id="validationCustom05" name="edad" required>
     <div class="invalid-feedback">
     Ingrese su Edad Exacta Porfavor
     </div>
 </div>
-</form>
+<center>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Ingrese el Tipo de Servicio que Desea</label>
+    <input type="text" class="form-control" id="validationCustom05" name="tiposervicio" required>
+    <div class="invalid-feedback">
+    </div>
 <br>
-  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected>Seleccione que Servicio de Capacitacion Desea</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-  <option value="4">Three</option>
-  <option value="5">Three</option>
-  <option value="6">Three</option>
-  <option value="7">Three</option>
-  <option value="8">Three</option>
-  <option value="9">Three</option>
-  <option value="10">Three</option>
-  <option value="11">Three</option>
-  <option value="12">Three</option>
-</select>
-<br>
-<h5>Ingrese el precio del servicio</h5>
-<br>
-<div class="input-group mb-3">
-  <span class="input-group-text">Q</span>
-  <span class="input-group-text">0.00</span>
-  <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
-</div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
-</div>
+<div class="col-md-6">
+    <label for="validationCustom05" class="form-label">Ingrese el Precio del Servicio</label>
+    <input type="text" class="form-control" id="validationCustom05" name="precio" required size="140">
+    <div class="invalid-feedback">
+    Ingrese su Edad Exacta Porfavor
+    </div>
+    </center>
+    <center>
+    <input type="submit" class="btn btn-dark" value="Enviar tus Datos" name="enviar">
+    </center>
 <br>
 <hr>
-<p style="text-align: left;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+<p style="text-align: center;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+</form>

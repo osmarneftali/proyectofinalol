@@ -32,6 +32,7 @@
     <table class="table table-hover">
     <thead>
     <tr>
+    <th scope="col">Numero de Mensaje</th>
     <th scope="col">Nombre</th>
     <th scope="col">Telefono/Celular</th>
     <th scope="col">Correo Electronico</th>
@@ -44,6 +45,7 @@
     $resultat=mysqli_query($conn,$query);
     while ($row=mysqli_fetch_array($resultat)){ ?>
     <tr>
+    <td><?php echo $row ['nomensaje'] ?> </td>  
     <td><?php echo $row ['nombre'] ?> </td>
     <td><?php echo $row ['telefono'] ?> </td>
     <td><?php echo $row ['correo'] ?> </td>
@@ -58,5 +60,6 @@
     </div>
     </center>
   </form>
+  <br>
   <hr>
-<p style="text-align: left;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+<p style="text-align: center;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       

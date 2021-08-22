@@ -14,7 +14,7 @@
   <div class="btn-group w-100" role="group" aria-label="Basic exaple">
     <a class="btn btn-success" href="index.html" role="button">Pagina de Inicio</a>
     <a class="btn btn-danger" href="tiendas.php" role="button">Tiendas</a>
-    <a class="btn btn-light" href="contactenos.php" role="button">Contactenos</a>
+    <a class="btn btn-light" href="servicios.php" role="button">Servicios</a>
     <a class="btn btn-dark" href="iniciars.php" role="button">Ver Mensajes</a>
     </div>
     <br>
@@ -29,23 +29,25 @@
     <br>
     <form action="mensajes.php" method="POST">
     <div class="container">
-    <h5>Nombres*</h5>
-    <input type="text" name="nombre" placeholder="Ingrese su Nombre y Apelidos" size="140">
+    <h5>Numero de Mensaje*</h5>
+    <input type="text" placeholder="Ingresa tu Numero de Mensaje que se te dio en la primer compra"  name="nomensaje" size="140">
     <br><br>
-    <h5>Telefóno/Ceular*</h5>
-    <input type="text" name="telefono" placeholder="Ingrese su número de telefónico, debe contar con nada mas 8 dígitos" size="140">
+    <h5>Nombres*</h5>
+    <input type="text" placeholder="nombre" name="nombre" size="140">
+    <br><br>
+    <h5>Telefóno/Celular*</h5>
+    <input type="text" placeholder="telefono" name="telefono" size="140">
     <br><br>
     <h5>Correo Electronico*</h5>
-    <input id="emailAddress" type="email" multiple name="correo" placeholder="Ingrese su correo electronico" size="140">
+    <input type="text" placeholder="correo" name="correo" size="140">
     <br><br>
     <h5>Mensaje*</h5>
-    <input type="text" name="mensaje" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" size="140">
+    <input type="text" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" name="mensaje" size="140">
     </div>
     <br><br>
     <center>
-    <input type="submit" class="btn btn-danger" name="enviar">
+    <input type="submit" class="btn btn-dark" value="Enviar tus Datos" name="enviar">
     </center>
-    </form>
     <hr>
-<p style="text-align: left;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
-
+<p style="text-align: center;"><font face="arial" size="3.5"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+</form>
