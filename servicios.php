@@ -34,7 +34,7 @@
             <h5 class="card-title">Capacitación de Ventas Profesionales</h5>
             <p class="card-text">Precio: Q 900.00</p>
             <div class="card-body">
-            <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+            <a class="btn btn-warning" href="masinfo.php" role="button">Más Información</a>
             </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
         <h5 class="card-title">Capacitación de Salud (Personal y No Personal)</h5>
         <p class="card-text">Precio: Q 600.00</p>
         <div class="card-body">
-          <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+          <a class="btn btn-warning" href="masinfo.php" role="button">Más Información</a>
         </div>
   </div>
 </div>
@@ -58,7 +58,7 @@
       <h5 class="card-title">Capacitación de Informatica</h5>
       <p class="card-text">Precio: Q 400.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-warning" href="masinfo.php" role="button">Más Información</a>
       </div>
 </div>
 </div>
@@ -70,7 +70,7 @@
       <h5 class="card-title">Capacitacion de Electricidad</h5>
       <p class="card-text">Precio: Q 350.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-warning" href="masinfo.php" role="button">Más Información</a>
 </div>
 </div>
 </div>
@@ -86,7 +86,7 @@
             <h5 class="card-title">Capacitación de Turismo (Internacional)</h5>
             <p class="card-text">Precio: Q 1,000.00</p>
             <div class="card-body">
-            <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+            <a class="btn btn-danger" href="masinfo.php" role="button">Más Información</a>
             </div>
       </div>
     </div>
@@ -98,7 +98,7 @@
         <h5 class="card-title">Capacitación de Empresas</h5>
         <p class="card-text">Precio: Q 400.00</p>
         <div class="card-body">
-          <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+          <a class="btn btn-danger" href="masinfo.php" role="button">Más Información</a>
         </div>
   </div>
 </div>
@@ -110,7 +110,7 @@
       <h5 class="card-title">Capacitación de Seguridad</h5>
       <p class="card-text">Precio: Q 450.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-danger" href="masinfo.php" role="button">Más Información</a>
       </div>
 </div>
 </div>
@@ -122,7 +122,7 @@
       <h5 class="card-title">Capacitacion de Recursos Humanos</h5>
       <p class="card-text">Precio: Q 800.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-danger" href="masinfo.php" role="button">Más Información</a>
 </div>
 </div>
 </div>
@@ -138,7 +138,7 @@
             <h5 class="card-title">Capacitación de Servicio al Cliente</h5>
             <p class="card-text">Precio: Q 340.00</p>
             <div class="card-body">
-            <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+            <a class="btn btn-success" href="masinfo.php" role="button">Más Información</a>
             </div>
       </div>
     </div>
@@ -150,7 +150,7 @@
         <h5 class="card-title">Capacitación de Emprendimiento</h5>
         <p class="card-text">Precio: Q 650.00</p>
         <div class="card-body">
-          <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+          <a class="btn btn-success" href="masinfo.php" role="button">Más Información</a>
         </div>
   </div>
 </div>
@@ -162,7 +162,7 @@
       <h5 class="card-title">Capacitación de Emergencias</h5>
       <p class="card-text">Precio: Q 470.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-success" href="masinfo.php" role="button">Más Información</a>
       </div>
 </div>
 </div>
@@ -174,7 +174,7 @@
       <h5 class="card-title">Capacitacion de Higiene Laboral</h5>
       <p class="card-text">Precio: Q 150.00</p>
       <div class="card-body">
-        <a class="btn btn-dark" href="masinfo.php" role="button">Más Información</a>
+        <a class="btn btn-success" href="masinfo.php" role="button">Más Información</a>
 </div>
 </div>
 </div>
