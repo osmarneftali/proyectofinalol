@@ -7,7 +7,8 @@ if ($usuario=="admin" and $contraseña=="mensajes") {
 }
 else {
     echo '<script lenguage="javascript">';
-    echo 'alert("Usuario o contraseña son incorrectas")';
-    echo '</script>';
+    echo 'alert("El usuario o contraseña son incorrectos, intentelo nuevamente")
+    window.location = "iniciars.php";
+    </script>';
 }
 ?>
