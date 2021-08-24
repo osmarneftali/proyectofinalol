@@ -23,60 +23,46 @@
     <br>
     <h3>¡Llena los Campos para recibir la informacion de nuestros servicios :)!</h3>
     <hr>
-    <form acction="datosinfo.php" method="POST" class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">NIT</label>
-    <input type="text" class="form-control" id="validationCustom01" name="nit" required>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Nombre Completo</label>
-    <input type="text" class="form-control" id="validationCustom02" name="nombres" required>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Correo</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" name="correo" required>
-      <div class="invalid-feedback">
-        Porfavor Ingrese su Correo Electronico
-      </div>
+    <form action="datosinfo.php" method="POST">
+    <div class="container">
+  <div class="row">
+    <div class="col">
+    <label for="floatingInput">NIT</label>
+    <input type="text" class="form-control" id="floatingInput" name="nit">
+    </div>
+    <div class="col">
+    <label for="floatingPassword">Nombre Completo</label>
+    <input type="text" class="form-control" id="floatingPassword" name="nombres">
+    </div>
+    <div class="col">
+    <label for="floatingPassword">Correo Electronico</label>
+    <input type="email" class="form-control" id="floatingPassword" name="correo">
+    </div>
+    <div class="col">
+    <label for="floatingPassword">Ciudad</label>
+    <input type="text" class="form-control" id="floatingPassword" name="ciudad">
     </div>
   </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">Ciudad</label>
-    <input type="text" class="form-control" id="validationCustom03" name="ciudad" required>
-    <div class="invalid-feedback">
-      Porfavor Ingrese su Ciudad
+  <br>
+  <div class="row">
+    <div class="col-8">
+    <label for="floatingPassword">Sexo</label>
+    <input type="text" class="form-control" id="floatingPassword" name="sexo">
+    </div>
+    <div class="col-4">
+    <label for="floatingPassword">Ingrese su Edad</label>
+    <input type="text" class="form-control" id="floatingPassword" name="edad">
     </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationCustom03" class="form-label">Sexo</label>
-    <input type="text" class="form-control" id="validationCustom03" name="sexo" required>
-    <div class="invalid-feedback">
-      Porfavor Ingrese su Ciudad
-    </div>
+  <br>
+  <div class="col-4">
+  <label for="floatingPassword">Ingrese el Tipo de Servicio que Desea</label>
+    <input type="text" class="form-control" id="floatingPassword" name="tiposervicio">
   </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Ingrese su Edad</label>
-    <input type="text" class="form-control" id="validationCustom05" name="edad" required>
-    <div class="invalid-feedback">
-    Ingrese su Edad Exacta Porfavor
-    </div>
-</div>
-<center>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Ingrese el Tipo de Servicio que Desea</label>
-    <input type="text" class="form-control" id="validationCustom05" name="tiposervicio" required>
-    <div class="invalid-feedback">
-    </div>
-<br>
-<div class="col-md-6">
-    <label for="validationCustom05" class="form-label">Ingrese el Precio del Servicio</label>
-    <input type="text" class="form-control" id="validationCustom05" name="precio" required size="140">
-    <div class="invalid-feedback">
-    Ingrese su Edad Exacta Porfavor
-    </div>
+  </div>
+  </div>  
     </center>
+    <br>
     <center>
     <input type="submit" class="btn btn-dark" value="Enviar tus Datos" name="enviar">
     </center>

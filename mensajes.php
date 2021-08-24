@@ -11,7 +11,10 @@ if (isset($_POST['enviar'])) {
     $query="INSERT INTO mensajes (nomensaje, nombre, telefono, correo, mensaje) VALUES ('$nomensaje', '$nombre', '$telefono', '$correo', '$mensaje')";
     $resultado=mysqli_query($conn,$query);
     if ($resultado) {
-    header ('location:contactenos.php');
+    echo '<script lenguage="javascript">';
+    echo 'alert("Informacion Enviada Exitosamente")
+    window.location = "contactenos.php";
+    </script>';
     }
 }
 ?>
