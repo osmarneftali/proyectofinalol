@@ -9,17 +9,17 @@ if (isset($_POST['enviar'])) {
     $sexo =$_POST['sexo'];
     $edad =$_POST['edad'];
     $tiposervicio =$_POST['tiposervicio'];
-    $precio =$_POST['precio']
+    $precio =$_POST['precio'];
 
     $query = "INSERT INTO informacion (nit, nombres, correo, ciudad, sexo, edad, tiposervicio, precio) 
     VALUES ('$nit', '$nombres', '$correo', '$ciudad', '$sexo', '$edad', '$tiposervicio', '$precio')";
-    $ejecutar = mysql_query($conn, $query);
-    if ($ejecutar) {
-        echo '<script lenguage="javascript">';
-        echo 'alert("Informacion enviada exitosamente")
-        window.location = "datosinfo.php";
-        </script>';
+    $resultado=mysqli_query($conn, $query);
+    if ($resultado) {
+    echo '<script lenguage="javascript">';
+    echo 'alert("¡Tu mensaje a sido enviado exitosamente, Gracias por usar nuestros servicios:)!")
+    window.location = "masinfo.php";
+    </script>';
     }
 }
-mysqli_close($conexion);
+mysqli_close($conn);
 ?>

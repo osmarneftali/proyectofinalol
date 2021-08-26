@@ -52,7 +52,7 @@
 </ul>
     </div>
   </div>
-  <br>
+
   <hr>
   <br>
   <div class="row">

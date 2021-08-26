@@ -22,11 +22,15 @@
     <br>
     <div class="row">
     <div class="col-4" style="color: #000000;"><h2>Mensajes Recibidos</h2>
+    <br>
+    <div class="container"> 
+    <a class="btn btn-outline-danger" href="infoclientes.php" role="button">Ver Informacón de Clientes</a>
     </div>
     </div>
     </div>
     </div>
-    <br><br>
+    </div>
+    <br>
     <center>
     <div class="col-8">
     <table class="table table-hover">

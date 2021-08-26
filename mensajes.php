@@ -12,7 +12,7 @@ if (isset($_POST['enviar'])) {
     $resultado=mysqli_query($conn,$query);
     if ($resultado) {
     echo '<script lenguage="javascript">';
-    echo 'alert("Informacion Enviada Exitosamente")
+    echo 'alert("¡Tu mensaje a sido enviado exitosamente!")
     window.location = "contactenos.php";
     </script>';
     }

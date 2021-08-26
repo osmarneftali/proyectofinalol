@@ -60,7 +60,14 @@
     <input type="text" class="form-control" id="floatingPassword" name="tiposervicio">
   </div>
   </div>
-  </div>  
+  </div>
+  <br>
+  <div class="col-4">
+  <label for="floatingPassword">Ingrese el precio del servicio</label>
+    <input type="text" class="form-control" id="floatingPassword" name="precio">
+  </div>
+  </div>
+  </div>    
     </center>
     <br>
     <center>

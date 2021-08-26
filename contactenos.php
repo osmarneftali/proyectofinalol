@@ -33,20 +33,20 @@
     <input type="text" placeholder="Ingresa tu Numero de Mensaje que se te dio en la primer compra"  name="nomensaje" size="140">
     <br><br>
     <h5>Nombres*</h5>
-    <input type="text" placeholder="nombre" name="nombre" size="140">
+    <input type="text" placeholder="Ingresa tu nombre completo" name="nombre" size="140">
     <br><br>
     <h5>Telefóno/Celular*</h5>
-    <input type="text" placeholder="telefono" name="telefono" size="140">
+    <input type="text" placeholder="Ingresa tu numero de telefono  de 8 digitos*" name="telefono" size="140">
     <br><br>
     <h5>Correo Electronico*</h5>
-    <input type="text" placeholder="correo" name="correo" size="140">
+    <input type="text" placeholder="Ingresa tu email" name="correo" size="140">
     <br><br>
     <h5>Mensaje*</h5>
     <input type="text" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" name="mensaje" size="140">
     </div>
     <br><br>
     <center>
-    <input type="submit" class="btn btn-dark" value="Enviar tus Datos" name="enviar">
+    <input type="submit" class="btn btn-dark" value="Enviar mis Datos" name="enviar">
     </center>
     <hr>
 <p style="text-align: center;"><font face="arial" size="3.5"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
