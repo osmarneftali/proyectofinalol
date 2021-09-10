@@ -1,7 +1,169 @@
 body {
-    background: url(imag/sora-sagano-YfaUzQIMgj0-unsplash.jpg) no-repeat center center fixed;
+    background: url(imag/fondos-pantalla-apple_thumb1200_16-9.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     }
 
+    .btn {
+        position: relative;
+        display: block;
+        height: 50px;
+        width: 200px;
+        border-radius: 4px;
+        background-color: #f82929d3;
+        color: #fff;
+        font-size: 18px;
+        transition: all 1000ms ease;
+        margin-bottom: 40px;
+        z-index: 0;
+        font-weight: 1000;
+        cursor: pointer;
+      }
+      .btn::before {
+        content: "";
+        position: absolute;
+        outline: none;
+        background-color: #dd1c4c;
+        transition: all 500ms ease;
+        z-index: -1;
+      }
+      .btn--1:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #11df33;
+        color: #ffffff;
+      }
+      .btn--2:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #f3ac14;
+        color: #000000;
+      }
+      .btn--3:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .btn--4:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #175cdd;
+        color: #fffefe;
+      }
+      .btn--5:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #f303f3;
+        color: #e7e1e1;
+      }
+      .btn--6:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #4be40f;
+        color: #ffffff;
+      }
+      .btn--7:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ee4410;
+        color: #ffffff;
+      }
+      .btn--8:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #000000;
+        color: #ffffff;
+      }
+      .btn--9:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #00f0e4;
+        color: #000000;
+      }
+      .btn--10:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #67d659;
+        color: #000000;
+      }
+      .btn--11:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #f006b5;
+        color: #ffffff;
+      }
+      .btn--12:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ff9900;
+        color: #000000;
+      }
+      .btn--13:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #0011ff;
+        color: #ffffff;
+      }
+      .btn--14:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ffffff;
+        color: #ee0e64;
+      }
+      .btn--15:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #d61414;
+        color: #ffffff;
+      }
+      .btn--16:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #fae900;
+        color: #2c2424;
+      }
+      .btn--17:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #1126df;
+        color: #ffffff;
+      }
+      .btn--18:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #d300fd;
+        color: #ffffff;
+      }
+      .btn--19:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #000000;
+        color: #ffffff;
+      }
+      .btn--20:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #3b0fb4;
+        color: #f3f3f3;
+      }
+      .btn--21:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #bdf100;
+        color: #000000;
+      }
+      .btn--22:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ffffff;
+        color: #3300ac;
+      }
+      .btn--23:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #000000;
+        color: #ffffff;
+      }
+      .btn--24:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #ff00dd;
+        color: #ffffff;
+      }
+      .btn--25:hover {
+        animation: shadow-pulse 1000ms 1;
+        background-color: #0de4b5;
+        color: #000000;
+      }
+      @keyframes shadow-pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+        }
+        100% {
+          box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+        }
+      }
+    
+      .card {
+        border-color: transparent;
+        background-color: transparent;
+        text-align: center;
+      }
