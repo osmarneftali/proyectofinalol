@@ -29,7 +29,7 @@
     <div class="container">
     <div class="row">
     <div class="col-sm-8">
-    <img src="imag/empresa 1.jpg" width="600px" right="600px">
+    <img class="fto--1" src="imag/empresa 1.jpg" width="600px" right="600px">
     <br><br>
     <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
@@ -73,7 +73,7 @@
   <br>
   <div class="row">
     <div class="col-sm-8">
-    <img src="imag/calle2.jpg" width="600px" right="600px">
+    <img class="fto--2" src="imag/calle2.jpg" width="600px" right="600px">
     <br><br>
     <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
@@ -114,7 +114,7 @@
   <hr><br>
   <div class="row">
     <div class="col-sm-8">
-    <img src="imag/empresa3.jpg" width="600px" right="600px">
+    <img class="fto--3" src="imag/empresa3.jpg" width="600px" right="600px">
     <br><br>
     <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
@@ -154,7 +154,7 @@
   <hr><br>
   <div class="row">
     <div class="col-sm-8">
-    <img src="imag/4.png" width="600px" right="600px">
+    <img class="fto--4" src="imag/4.png" width="600px" right="600px">
     <br><br><br>
     <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
@@ -196,3 +196,21 @@
   </div>
   <hr>
   <p style="text-align: left;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       
+  <style>
+      .fto--1:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.952);
+      }
+      .fto--2:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.952);
+      }
+      .fto--3:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.952);
+      }
+      .fto--4:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.952);
+      }
+    </style>
