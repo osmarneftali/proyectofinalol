@@ -14,9 +14,9 @@
     <div class="input-group">
 </div>
   <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn-success" href="servicios.php" role="button">Servicios</a>
-    <a class="btn btn-danger" href="tiendas.php" role="button">Tiendas</a>
-    <a class="btn btn-light" href="contactenos.php" role="button">contactenos</a>
+    <a class="btn btn--26" href="servicios.php" role="button">Servicios</a>
+    <a class="btn btn--27" href="tiendas.php" role="button">Tiendas</a>
+    <a class="btn btn--28" href="contactenos.php" role="button">contactenos</a>
   </div>
     <br>
     <center>
@@ -71,7 +71,7 @@
     </center>
     <br>
     <center>
-    <input type="submit" class="btn btn-dark" value="Enviar tus Datos" name="enviar">
+    <input type="submit" class="btn btn--29" value="Enviar tus Datos" name="enviar">
     </center>
 <hr>
 <p style="text-align: center;"><font face="arial" size="3"> PBX: 4660-0602 - Dirección: Loma Blanca Nimajuyu, Zona 21 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<b> Carnet: 2020-40186 - Nombre: Osmar Neftali Lopez López</b></font></p>       

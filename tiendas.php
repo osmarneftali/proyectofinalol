@@ -12,9 +12,9 @@
   <body>
     <br>
     <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn--1" href="servicios.php" role="button">Servicios</a>
-    <a class="btn btn--2" href="tiendas.php" role="button">Tiendas</a>
-    <a class="btn btn--3" href="contactenos.php" role="button">Contactenos</a>
+    <a class="btn btn--1" href="servicios.php" role="button">Servicios 💼</a>
+    <a class="btn btn--2" href="tiendas.php" role="button">Tiendas 🛒</a>
+    <a class="btn btn--3" href="contactenos.php" role="button">Contactenos ☎️</a>
     </div>
     <br>
     <div class="container">
@@ -58,12 +58,13 @@
     <br>
     </ul>
     <ul class="list-group">
-    <li class="list-group-item">Lunes, 10:30–19:30</li>
-    <li class="list-group-item">Martes, 10:30–19:30</li>
-    <li class="list-group-item">Miércoles, 10:30–19:30</li>
+    <li class="list-group-item">✔️ . Lunes, 10:30–19:30</li>
+    <li class="list-group-item">✔️ . Martes, 10:30–19:30</li>
+    <li class="list-group-item">❌ . Miércoles, 10:30–19:30</li>
+    <li class="list-group-item">❌ . Jueves, Cerrado</li>
     <br>
     <center>
-    <a class="btn btn--4" href="https://www.liverpooltourkatherin.co.uk/" role="button">Visitar Tienda</a>
+    <a class="btn btn--4" href="https://www.liverpooltourkatherin.co.uk/" role="button">Visitar Tienda 📞</a>
     </center>
 </ul>
     </div>
@@ -100,12 +101,12 @@
         <li>Horario:</li>
         </ul>
         <ul class="list-group">
-    <li class="list-group-item">Miércoles, 10:30–19:30</li>
-    <li class="list-group-item">Jueves, 10:30–19:30</li>
-    <li class="list-group-item">Viernes, 6:00–13:00</li>
+    <li class="list-group-item">✔️ . Miércoles, 10:30–19:30</li>
+    <li class="list-group-item">✔️ . Jueves, 10:30–19:30</li>
+    <li class="list-group-item">✔️ . Viernes, 6:00–13:00</li>
     <br>
     <center>
-    <a class="btn btn--5" href="https://www.melia.com/es/hoteles/espana/madrid/innside-madrid-gran-via/index.htm" role="button">Visitar Tienda</a>
+    <a class="btn btn--5" href="https://www.melia.com/es/hoteles/espana/madrid/innside-madrid-gran-via/index.htm" role="button">Visitar Tienda 📞</a>
     </center>  
   </div>
   </div>
@@ -141,11 +142,11 @@
         <li>Horario:</li>
         </ul>
       <ul class="list-group">
-    <li class="list-group-item">Jueves, 10:30–19:30</li>
-    <li class="list-group-item">Viernes, 6:00–13:00</li>
+    <li class="list-group-item">✔️ . Jueves, 10:30–19:30</li>
+    <li class="list-group-item">✔️ . Viernes, 6:00–13:00</li>
     <br>
     <center>
-    <a class="btn btn--6" href="https://www.mercamadrid.es/" role="button">Visitar Tienda</a>
+    <a class="btn btn--6" href="https://www.mercamadrid.es/" role="button">Visitar Tienda 📞</a>
     </center>
   </div>
   </div>
@@ -182,14 +183,14 @@
         <br>
         </ul>
         <ul class="list-group">
-        <li class="list-group-item">Martes, Cerrado</li>
-        <li class="list-group-item">Miércoles, Cerrado</li>
-        <li class="list-group-item">Jueves, Cerrado</li>
-        <li class="list-group-item">Viernes, Cerrado</li>
-        <li class="list-group-item">Domingo, 10:15–17:15</li>
+        <li class="list-group-item">❌ . Martes, Cerrado</li>
+        <li class="list-group-item">❌ . Miércoles, Cerrado</li>
+        <li class="list-group-item">❌ . Jueves, Cerrado</li>
+        <li class="list-group-item">❌ . Viernes, Cerrado</li>
+        <li class="list-group-item">✔️ . Domingo, 10:15–17:15</li>
         <br>
         <center>
-    <a class="btn btn--7" href="http://www.stjohnsbeacon.co.uk/" role="button">Visitar Tienda</a>
+    <a class="btn btn--7" href="http://www.stjohnsbeacon.co.uk/" role="button">Visitar Tienda 📞</a>
     </center>
   </div>
   </div>

@@ -12,10 +12,10 @@
   <body>
     <br><br>
   <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn--9" href="index.html" role="button">Pagina de Inicio</a>
-    <a class="btn btn--10" href="tiendas.php" role="button">Tiendas</a>
-    <a class="btn btn--11" href="servicios.php" role="button">Servicios</a>
-    <a class="btn btn--12" href="iniciars.php" role="button">Ver Mensajes</a>
+    <a class="btn btn--9" href="index.html" role="button">Pagina de Inicio ↩️</a>
+    <a class="btn btn--10" href="tiendas.php" role="button">Tiendas 🛒</a>
+    <a class="btn btn--11" href="servicios.php" role="button">Servicios 💼</a>
+    <a class="btn btn--12" href="iniciars.php" role="button">Ver Mensajes ☎️</a>
     </div>
     <br>
     <div class="container">
@@ -29,19 +29,19 @@
     <br>
     <form action="mensajes.php" method="POST">
     <div class="container">
-    <h5>Numero de Mensaje*</h5>
+    <h5>Numero de Mensaje* 📑</h5>
     <input type="text" placeholder="Ingresa tu Numero de Mensaje que se te dio en la primer compra"  name="nomensaje" size="140">
     <br><br>
-    <h5>Nombres*</h5>
+    <h5>Nombres* ✒️</h5>
     <input type="text" placeholder="Ingresa tu nombre completo" name="nombre" size="140">
     <br><br>
-    <h5>Telefóno/Celular*</h5>
+    <h5>Telefóno/Celular* 📲</h5>
     <input type="text" placeholder="Ingresa tu numero de telefono  de 8 digitos*" name="telefono" size="140">
     <br><br>
-    <h5>Correo Electronico*</h5>
+    <h5>Correo Electronico* 📧</h5>
     <input type="text" placeholder="Ingresa tu email" name="correo" size="140">
     <br><br>
-    <h5>Mensaje*</h5>
+    <h5>Mensaje* 💬</h5>
     <input type="text" placeholder="Ingresa un mensaje que quiera darnos por algun problema, y con gusto te responderemos!" name="mensaje" size="140">
     </div>
     <br><br>

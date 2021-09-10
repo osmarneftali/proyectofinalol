@@ -13,9 +13,9 @@
   <body>
     <br>
     <div class="btn-group w-100" role="group" aria-label="Basic exaple">
-    <a class="btn btn--1" href="index.html" role="button">Pagina de Inicio</a>
-    <a class="btn btn--2" href="tiendas.php" role="button">Tiendas</a>
-    <a class="btn btn--3" href="contactenos.php" role="button">Contactenos</a>
+    <a class="btn btn--1" href="index.html" role="button">Pagina de Inicio ↩️</a>
+    <a class="btn btn--2" href="tiendas.php" role="button">Tiendas 🛒</a>
+    <a class="btn btn--3" href="contactenos.php" role="button">Contactenos ☎️</a>
     </div>
   <div class="menu">
     <center>

@@ -13,11 +13,11 @@
   <br>
   <div class="container">
   <button class="btn btn--14" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-  MENÚ
+  MENÚ 📤
   </button>
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Dropdown Menú</h5>
+  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menú 📖</h5>
   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
@@ -25,10 +25,10 @@
   ¡Hola! 👋 Bienvenido, en el apartado siguiente encontratas como redirigirte a las paginas anteriores.
   </div>
   <br>
-  <a href="index.html" role="button" class="btn btn--15">Pagina de Inicio</a>
-  <a href="servicios.php" role="button" class="btn btn--16">Servicios</a>
-  <a href="tiendas.php" role="button" class="btn btn--17">Tiendas</a>
-  <a href="contactenos.php" role="button" class="btn btn--18">Contacetenos</a>
+  <a href="index.html" role="button" class="btn btn--15">Inicio ↩️</a>
+  <a href="servicios.php" role="button" class="btn btn--16">Servicios 🚻</a>
+  <a href="tiendas.php" role="button" class="btn btn--17">Tiendas 🛒</a>
+  <a href="contactenos.php" role="button" class="btn btn--18">Contacetenos ☎️</a>
   </div>
   </div>
   </div>
@@ -38,18 +38,18 @@
     <div class="card-body">
     <form action="validarusuario.php" method="POST">
     <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Usuario</label>
+    <label for="exampleInputEmail1" class="form-label">User</label>
     <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="text" class="form-control" placeholder="&#Xf007;" name="usuario">
     </div>
         <br>
         <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <label for="exampleInputPassword1" class="form-label">Password</label>
         <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="password" class="form-control" placeholder="&#Xf023;" name="contraseña">
         </div>
         <div class="mb-3 form-check">
         </div>
         <center><div class="d-grip gap-2">
-        <button class="btn btn--19" type="submit" name="enviar">Iniciar Sesion</button>
+        <button class="btn btn--19" type="submit" name="enviar">Iniciar Sesion 👨🏻‍🎓</button>
         </form>
     </div>
     </div>
